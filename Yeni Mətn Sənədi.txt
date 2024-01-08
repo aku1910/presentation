@@ -1,0 +1,194 @@
+// task 1
+// var num = 5678
+// var cem = 0
+// var a
+// count = 0
+// while (num >= 1) {
+//     a = num % 10
+//     num = (num - a) / 10
+//     cem += a
+//     count++
+// }
+// if (count == 4) {
+//     console.log("4 reqemlidir")
+// }
+// else {
+//     console.log("eded 4reqemli deyil")
+// }
+
+
+// task 2
+// var num=127
+// var a
+// a=num%10
+// if(a%2==0){
+//     console.log("eded cutdur")
+// }
+// else{
+//     console.log("eded tekdir")
+// }
+
+// task 3
+// var eded="4"
+// switch(eded){
+//     case eded="1":
+//     console.log("Yanvar")
+//     break;
+    
+//     case eded="2":
+//     console.log("Fevral")
+//     break;
+    
+//     case eded="3":
+//     console.log("Mart")
+//     break;
+    
+//     case eded="4":
+//     console.log("Aprel")
+//     break;
+    
+//     case eded="5":
+//     console.log("May")
+//     break;
+    
+//     case eded="6":
+//     console.log("Iyun")
+//     break;
+    
+//     case eded="7":
+//     console.log("Iyul")
+//     break;
+    
+//     case eded="8":
+//     console.log("Avqust")
+//     break;
+    
+//     case eded="9":
+//     console.log("Sentyabr")
+//     break;
+    
+//     case eded="10":
+//     console.log("Oktyabr")
+//     break;
+    
+//     case eded="11":
+//     console.log("Noyabr")
+//     break;
+    
+//     default:
+//         console.log("Dekabr") 
+// }
+
+// task 4
+// var num=120
+// var a
+// var b=0
+// var c=0
+// while(num>=1){
+//     a=num%10
+//     if(num>=100|| num<10){
+//         b+=a
+//     }
+//     else if(10<=num<=100){
+//         c+=a
+//     }
+//     num=(num-a)/10
+// }
+// if(b==c){
+//     console.log("beli")
+// }
+// else{
+//     console.log("xeyr")
+// }
+
+
+// task 5
+// var num=444
+// var a
+// var cem=0
+// var hasil=1
+// var count=0
+// while(num>=1){
+//     a=num%10
+//     cem+=a
+//     hasil*=a
+//     if(a==5){
+//         count++
+//     }
+//     num=(num-a)/10
+// }
+// if(count>0){
+//     console.log(cem)
+// }
+// else{
+//     console.log(hasil)
+// }
+
+// task 6
+// num=15
+// var cem=0
+// var hasil=1
+// while(num<=60){
+//     if(num%2==0){
+//         cem+=num
+//     }
+//     else{
+//         hasil*=num
+//     }
+//     num++
+// }
+// console.log("cut ededlerin cemi  "+cem)
+// console.log("tek ededlerin hasili  "+hasil)
+
+// task 7
+// for (let i = 1; i < 1000; i++) {
+//     if(i%56==0)
+//     console.log(i)
+// }
+
+
+// task 8
+// var num=044
+// var num2
+// var yeninum=""
+// var a
+// num2=num
+// while(num>=1){
+//     a=num%10
+//     yeninum+=a
+//     num=(num-a)/10
+// }
+// if (num2 == parseInt(yeninum)){
+//     console.log("Polidnomdur")
+// }
+// else{
+//     console.log("Polidnom deyil")
+// }
+
+// task 9
+// var num1=363243
+// var num2=347277
+// var num3=964896
+// var cem=0
+// var a
+// cem=(num1+num2+num3)
+// a=cem*10/100
+// console.log(a)
+
+// task 10
+// var num=479
+// var a
+// var cem=0
+// var b
+// while(num>=10){
+//     a=num%10
+//     cem+=a
+//     num=(num-a)/10
+// }
+// b=num**2
+// if(b==cem){
+//     console.log("beli")
+// }
+// else{
+//     console.log("xeyr")
+// }
